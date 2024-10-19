@@ -3,9 +3,10 @@
 
 docker container exec -it <container_name> <command>
 
-
-docker compose up –build
 docker compose up down
+docker-compose up --build
+docker-compose up --build -d
+
 
 
 cd docker-compose/nginx/ssl/
